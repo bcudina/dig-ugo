@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Contacts extends Component {
   render() {
@@ -17,10 +17,10 @@ class Contacts extends Component {
               <iframe
                 src="https://www.google.com/maps/d/embed?mid=1h9PyWJ9-uAFIIilnpaebyJB00bZ8EhqT"
                 style={{
-                  border: '0',
-                  width: '100%',
-                  height: '315px',
-                  frameborder: '0'
+                  border: "0",
+                  width: "100%",
+                  height: "315px",
+                  frameborder: "0"
                 }}
                 allowFullscreen
               />

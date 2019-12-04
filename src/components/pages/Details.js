@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { InfoConsumer } from '../context';
-import styled from 'styled-components';
-import Reviews from '../Reviews';
+import React, { Component } from "react";
+import { InfoConsumer } from "../context";
+import styled from "styled-components";
+import Reviews from "../Reviews";
 
 class Details extends Component {
   render() {
@@ -111,10 +111,10 @@ class Details extends Component {
                     <iframe
                       src={maps}
                       style={{
-                        border: '0',
-                        height: '28.125rem',
-                        width: '100%',
-                        frameborder: '0'
+                        border: "0",
+                        height: "28.125rem",
+                        width: "100%",
+                        frameborder: "0"
                       }}
                     />
                   </div>
@@ -132,7 +132,7 @@ export default Details;
 
 const HeaderDetails = styled.header`
   background: linear-gradient(rgba(109, 109, 109), rgba(255, 255, 255));
-  height: 100vh;
+  height: 90vh;
   text-transform: uppercase;
   color: var(--mainWhite);
   text-align: center;

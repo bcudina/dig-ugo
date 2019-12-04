@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { InfoConsumer } from "./context";
-import { Link } from "react-router-dom";
 
-class Info extends Component {
+class PortfolioInfo extends Component {
   render() {
     const {
       id,
@@ -19,17 +18,9 @@ class Info extends Component {
             <div className="card" style={{ width: "18rem" }}>
               <img src={img} alt={headerTitle} className="card-img-top" />
               <div className="card-body">
-                <h3 className="card-title text-uppercase">{headerTitle}</h3>
-                <h5 className="card-title">{headerSubTitle}</h5>
+                <h5 className="card-title text-uppercase">{headerTitle}</h5>
+                <h4 className="card-title">{headerSubTitle}</h4>
                 <p className="card-text">{headerText}</p>
-
-                <Link
-                  onClick={() => value.handleDetail(id)}
-                  to="/details"
-                  className="btn btn-outline-primary text-uppercase"
-                >
-                  More Info
-                </Link>
               </div>
             </div>
           </div>
@@ -39,4 +30,4 @@ class Info extends Component {
   }
 }
 
-export default Info;
+export default PortfolioInfo;

@@ -25,6 +25,8 @@ function Navbar() {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        {/*----------------------------------------------------------- */}
+
         <ul className="navbar-nav m-auto">
           <li className="nav-item active">
             <Link className="nav-link text-white text-uppercase ml-5" to="/">
@@ -33,12 +35,36 @@ function Navbar() {
               <span className="sr-only">(current)</span>
             </Link>
           </li>
+
+          {/*----------------------------------------------------------- */}
+          <div class="dropdown">
+            <button
+              class="btn btn-active dropdown-toggle ml-5 text-white text-uppercase"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              REKLAME
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <Link class="dropdown-item text-uppercase" to="/slobodnepozicije">
+                slobodne pozicije
+              </Link>
+              <Link class="dropdown-item text-uppercase" to="/news">
+                reklame-vrste
+              </Link>
+            </div>
+          </div>
+          {/*----------------------------------------------------------- */}
+
           <li className="nav-item">
             <Link
               className="nav-link text-white text-uppercase ml-5"
-              to="/news"
+              to="/portfolio"
             >
-              news
+              portfolio
             </Link>
           </li>
           <li className="nav-item">
@@ -50,7 +76,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        <form className="form-inline my-2 my-lg-0">
+        <form className="form-inline my-2 my-lg-0 ">
           <input
             className="form-control mr-sm-2"
             type="search"

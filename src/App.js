@@ -10,6 +10,9 @@ import Home from "./components/pages/Home";
 import News from "./components/pages/News";
 import Contacts from "./components/pages/Contacts";
 import Details from "./components/pages/Details";
+import slobodnePozicije from "./components/pages/slobodnepozicije";
+import Portfolio from "./components/pages/portfolio";
+
 import NotFoundPage from "./components/pages/NotFoundPage";
 
 class App extends Component {
@@ -18,12 +21,14 @@ class App extends Component {
       <div>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/news" component={News} />
-          <Route path="/contacts" component={Contacts} />
-          <Route path="/details" component={Details} />
-          <Route component={NotFoundPage} />
-        </Switch>
+          <Route exact path="/" component={Home} />{" "}
+          <Route path="/news" component={News} />{" "}
+          <Route path="/contacts" component={Contacts} />{" "}
+          <Route path="/details" component={Details} />{" "}
+          <Route path="/slobodnepozicije" component={slobodnePozicije} />{" "}
+          <Route path="/portfolio" component={Portfolio} />
+          <Route component={NotFoundPage} />{" "}
+        </Switch>{" "}
         <Footer />
       </div>
     );
