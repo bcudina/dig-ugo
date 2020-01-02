@@ -1,15 +1,19 @@
 import React, { Component } from "react";
+
+/* importujemo sve objekte iz data.js */
 import {
   placeInfo,
   reviews,
   detailInfo,
   news,
   slobodne,
-  portfolioData
+  portfolioData,
+  cestapitanja
 } from "../data";
 
 const InfoContext = React.createContext();
 
+/* priprema rad sa njima */
 class InfoProvider extends Component {
   state = {
     info: placeInfo,
@@ -17,7 +21,8 @@ class InfoProvider extends Component {
     detailInfo: detailInfo,
     news: news,
     slobodne: slobodne,
-    portfolioData: portfolioData
+    portfolioData: portfolioData,
+    cestapitanja: cestapitanja
   };
 
   getItem = id => {
@@ -34,6 +39,7 @@ class InfoProvider extends Component {
     });
   };
 
+  /* vračanje kao gotov proizvod */
   render() {
     return (
       <InfoContext.Provider
@@ -51,9 +57,11 @@ class InfoProvider extends Component {
           comment: this.state.comment,
           handleDetail: this.handleDetail,
           slobodne: this.state.slobodne,
-          portfolioData: this.state.portfolioData
+          portfolioData: this.state.portfolioData,
+          cestapitanja: this.state.cestapitanja
         }}
       >
+        {" "}
         {this.props.children}{" "}
       </InfoContext.Provider>
     );

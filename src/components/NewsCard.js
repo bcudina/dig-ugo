@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import { InfoConsumer } from '../components/context';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { InfoConsumer } from "../components/context";
+import { Link } from "react-router-dom";
+
+/* class */
 
 class NewsCard extends Component {
   render() {

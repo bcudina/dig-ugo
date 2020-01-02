@@ -4,6 +4,8 @@ import logo from "./../images/logo/promolink1.png";
 
 import { Link } from "react-router-dom";
 
+/* function */
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -54,6 +56,9 @@ function Navbar() {
               </Link>
               <Link class="dropdown-item text-uppercase" to="/news">
                 reklame-vrste
+              </Link>
+              <Link class="dropdown-item text-uppercase" to="/faq">
+                FAQ
               </Link>
             </div>
           </div>

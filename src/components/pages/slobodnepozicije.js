@@ -3,6 +3,8 @@ import NewsCard from "../NewsCard";
 
 import { InfoConsumer } from "../context";
 
+/* class */
+
 class slobodnePozicije extends Component {
   render() {
     return (

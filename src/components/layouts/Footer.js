@@ -8,66 +8,27 @@ function Footer() {
         <div className="container ">
           <div className="row ">
             {/* Column 1 */}
-            <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
+            <div className="col-md-4 col-sm-6 name">
+              <h4>Promo Link d.o.o.</h4>
               <ul className="list-unstyled">
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
+                <li>Put skalica 5</li> <li>Split</li>
               </ul>
             </div>
             {/* Column 2 */}
             <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
+              <h5>e-mail</h5>
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
+                  <p>bozidar.cudina@mail.com</p>
                 </li>
               </ul>
             </div>
             {/* Column 3 */}
             <div className="col-md-3 col-sm-6">
-              <h4>Lorem ipsum</h4>
+              <h5>Kontakt</h5>{" "}
               <ul className="list-unstyled">
                 <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-              </ul>
-            </div>
-            {/* Column 4 */}
-            <div className="col-md-3 col-sm-6 ">
-              <h4>Lorem ipsum</h4>
-              <ul className="list-unstyled">
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
-                </li>
-                <li>
-                  <a href="#">Lorem ipsum</a>
+                  <p>++ 385 99 45 88 007</p>
                 </li>
               </ul>
             </div>
@@ -75,8 +36,8 @@ function Footer() {
           {/* Footer Bottom */}
           <div className="footer-bottom">
             <p className="text-xs-center">
-              &copy;{new Date().getFullYear()} Božidar Ćudina - All Rights
-              Reserved
+              &copy; {new Date().getFullYear()}
+              Božidar Ćudina - All Rights Reserved
             </p>
           </div>
         </div>
@@ -90,7 +51,7 @@ const FooterContainer = styled.footer`
   .footer-middle {
     background: var(--mainDark);
     padding-top: 3rem;
-    color: var(--mainWhite);
+    color: var(--mainLightGrey);
   }
 
   .footer-bottom {
@@ -98,11 +59,19 @@ const FooterContainer = styled.footer`
     padding-bottom: 2rem;
   }
 
-  ul li a {
-    color: var(--mainGrey);
+  h4 {
+    color: var(--mainWhite);
+  }
+
+  ul li p {
+    color: var(--mainWhite);
   }
 
   ul li a:hover {
     color: var(--mainLightGrey);
+  }
+
+  name {
+    color: var(--mainWhite);
   }
 `;

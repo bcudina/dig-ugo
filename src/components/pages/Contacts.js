@@ -15,7 +15,7 @@ class Contacts extends Component {
           <div className="row">
             <div className="col-md-7">
               <iframe
-                src="https://www.google.com/maps/d/embed?mid=1h9PyWJ9-uAFIIilnpaebyJB00bZ8EhqT"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.2787798206805!2d16.433173215668678!3d43.51737896922049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13355de37a8e4531%3A0x6d759060120efb06!2sPut%20Skalica%205%2C%2021000%2C%20Split!5e0!3m2!1shr!2shr!4v1575644564222!5m2!1shr!2shr"
                 style={{
                   border: "0",
                   width: "100%",
