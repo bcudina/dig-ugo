@@ -63,7 +63,8 @@ class Details extends Component {
                       About Place
                     </a>
                   </li>
-                  {/* Reviews Link */}
+
+                  {/* Reviews Link 
                   <li className="nav-item">
                     <a
                       href="#reviews"
@@ -74,6 +75,7 @@ class Details extends Component {
                       Reviews
                     </a>
                   </li>
+                  */}
                   {/* Map Link */}
                   <li className="nav-item">
                     <a

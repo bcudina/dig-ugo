@@ -6,19 +6,40 @@ import { Link } from "react-router-dom";
 
 class NewsCard extends Component {
   render() {
-    const { id, newsTitle, newsText } = this.props.item;
+    const {
+      id,
+      headerTitle,
+      newsText,
+      headerText,
+      description,
+      img,
+      maps
+    } = this.props.item;
     return (
       <InfoConsumer>
         {value => (
           <div className="card container mt-2 mb-3 p-5">
             <div className="card-body">
               <h5 key={id} className="card-title">
-                {newsTitle}
+                {headerTitle}
               </h5>
-              <p className="card-text">{newsText}</p>
-              <Link to="/" className="card-link">
-                Read More >>
-              </Link>
+              <p className="card-text">{headerText}</p>
+              <p className="card-text">{description}</p>
+              <img src={img} alt={headerTitle} className="card-img-top" />
+
+              <p className="card-text">{}</p>
+
+              <div className="tab-pane" id="map" role="tabpanel">
+                <iframe
+                  src={maps}
+                  style={{
+                    border: "0",
+                    height: "28.125rem",
+                    width: "100%",
+                    frameborder: "0"
+                  }}
+                />
+              </div>
             </div>
           </div>
         )}

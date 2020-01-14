@@ -19,7 +19,7 @@ export const placeInfo = [
   {
     id: 2,
     headerTitle: "Split",
-    headerSubTitle: "Mosečka ulica",
+    headerSubTitle: "Domovinskog rata",
     headerText:
       "Također na jednoj od najprometnijih ulica u Dalmaciji na izlazu iz grada Splita, a direktno na putu prema najvačim trgovačkim centrima u Splitu (City Centar One, Mall od Split, Salona Mall), pozicioniran je  Wallscape veličine 12*5 m kao zadnji oglasni prostor prema navedenim centrima. Idealna pozicija za komunikaciju sa potencijalnom kupcima.",
     title: "Lorem unitye",
@@ -178,9 +178,16 @@ export const news = [
 export const slobodne = [
   {
     id: 1,
+    headerTitle: "Sirobuja",
+    headerText:
+      "Bilboard smješten na samom ulaska u grad Split iz smjera Dubrovnika, kao jednoj od najprometnijih prometnica, svojom veličinom i pozicijom pljeni pažnju sa velike udaljenosti. Bitna značajka ovog novog Bilboard-a je u tome da je reklamiranje moguće sa obje strane",
+    description: "Bilboard je veličine 5 * 2.4 m.",
 
     newsText:
-      "Nažalost, trenutno nema slobodnih pozicija. Slobodni ste poslati nam upit, kako bi Vas mogli kontaktirati kada se pojedine pozicije oslobode."
+      "Nažalost, trenutno nema slobodnih pozicija. Slobodni ste poslati nam upit, kako bi Vas mogli kontaktirati kada se pojedine pozicije oslobode.",
+    img: ".././images/slike/sirobuja.jpg",
+    maps:
+      "https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d2893.8201428538755!2d16.524628120015432!3d43.50608745447296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d43.5068189!2d16.526334!5e0!3m2!1shr!2shr!4v1579045180582!5m2!1shr!2shr"
   }
 ];
 

@@ -8,7 +8,8 @@ class PortfolioInfo extends Component {
       headerTitle,
       headerSubTitle,
       headerText,
-      img
+      img,
+      maps
     } = this.props.item;
 
     return (
