@@ -19,7 +19,8 @@ function Footer() {
               <h5>e-mail</h5>
               <ul className="list-unstyled">
                 <li>
-                  <p>bozidar.cudina@mail.com</p>
+                  <p>bozidar.cudina@gmail.com</p>
+                  <p>info@promolink.hr</p>
                 </li>
               </ul>
             </div>

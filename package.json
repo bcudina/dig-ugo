@@ -1,7 +1,7 @@
 {
   "name": "ugo-digitron",
   "version": "0.1.0",
-  "homepage": "https://promolink.hr/promolink",
+  "homepage": "https://promolink.hr",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
