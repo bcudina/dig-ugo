@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -35,10 +36,12 @@ function Footer() {
           </div>
           {/* Footer Bottom */}
           <div className="footer-bottom">
-            <p className="text-xs-center">
-              &copy; {new Date().getFullYear()}
-              Božidar Ćudina - All Rights Reserved
-            </p>
+            <a target="_blank" href="https://bcudina.bss.design/">
+              <p className="text-xs-center">
+                &copy; {new Date().getFullYear()}
+                Božidar Ćudina - All Rights Reserved
+              </p>
+            </a>
           </div>
         </div>
       </div>

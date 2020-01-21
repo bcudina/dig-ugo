@@ -7,7 +7,7 @@ export const placeInfo = [
     headerSubTitle: "Domovinskog rata",
     headerText:
       "Na jednoj od najprometnijih ulica u Dalmaciji na samom ulazu u grad Split smješten je wallscape veličine 12*5 m vidljiv sa iznimno velike udaljenosti te na taj način dugo prenosi željene informacje.",
-    title: "Ulica Domovinskog rata",
+    title: "",
     description:
       "Wallspace se nalazi u jednoj od najprometnijih ulica u Splitu koje je ujedno glavna prometnica ulaska u grad. Reklama je vidlijiva sa iznimno velike udaljenosti. ",
     img: ".././images/slike/domovinskog-2.jpg",
@@ -22,7 +22,7 @@ export const placeInfo = [
     headerSubTitle: "Domovinskog rata",
     headerText:
       "Također na jednoj od najprometnijih ulica u Dalmaciji na izlazu iz grada Splita, a direktno na putu prema najvačim trgovačkim centrima u Splitu (City Centar One, Mall od Split, Salona Mall), pozicioniran je  Wallscape veličine 12*5 m kao zadnji oglasni prostor prema navedenim centrima. Idealna pozicija za komunikaciju sa potencijalnom kupcima.",
-    title: "Lorem unitye",
+    title: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est incidunt quo veritatis ad, nobis dolorum corrupti excepturi, natus fugit necessitatibus nihil nam minus explicabo debitis quod accusamus consectetur a eaque.",
     img: ".././images/slike/domovinskograta.jpg",
@@ -35,13 +35,13 @@ export const placeInfo = [
     headerSubTitle: "Vukovarska ulica",
     headerText:
       "Vukovarska ulica, kao jedna od najbitnijih i najprometnijih ulica u Splitu koja vodi direktno prema največim trgovačkim centrima u gradu Splitu smješten je Billbord veličine 5 * 2,4 m.",
-    title:
-      "elit. Fugit, provident corrupti repudiandae nihil harum vel? Ducimus quos inventore suscipit sed laudantium eum quae, ex obcaecati quisquam? Pariatur omnis in reiciendis!",
+    title: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore modi error sed ad quis obcaecati aliquid officia rerum alias quia voluptatum, consequatur at optio quas nisi autem necessitatibus nemo!",
     img: ".././images/slike/vukovarska.jpg",
+
     maps:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17967.866965087615!2d37.60335432286895!3d55.74141791432578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb9384e1a3b2da434!2z0JPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3Ri9C5INC80YPQt9C10Lkg0JAu0KEuINCf0YPRiNC60LjQvdCw!5e0!3m2!1sru!2sru!4v1547878731704"
+      "https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d5786.983897273783!2d16.460398677492513!3d43.512933066505276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d43.511876!2d16.4586619!5e0!3m2!1shr!2shr!4v1579636464348!5m2!1shr!2shr"
   },
   {
     id: 4,
@@ -49,12 +49,13 @@ export const placeInfo = [
     headerSubTitle: "Klis-Solin",
     headerText:
       "Billbord veličine 8 * 2,4 m na brzoj cesti prilikom ulaza u Split sa autoputa, iznimno vidljiv pruža prvu informaciju kako domačim tako i stranim potencijalnim klijentima.",
-    title: "Perspiciatis illum",
+    title: "",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam nostrum dicta vitae, illo numquam autem excepturi rem unde eos exercitationem perferendis expedita, blanditiis eaque facilis explicabo aliquid doloribus rerum?",
     img: ".././images/slike/solin-klis.jpg",
+
     maps:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.9848620916428!2d37.618675215617316!3d55.741392000339864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afe32078357%3A0xa50d6e8b9a7b028f!2z0JPQvtGB0YPQtNCw0YDRgdGC0LLQtdC90L3QsNGPINCi0YDQtdGC0YzRj9C60L7QstGB0LrQsNGPINCz0LDQu9C10YDQtdGP!5e0!3m2!1sru!2sru!4v1547878659681"
+      "https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d1446.304435450347!2d16.51062310822762!3d43.53134839478142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d43.5310475!2d16.511640099999997!5e0!3m2!1shr!2shr!4v1579636729767!5m2!1shr!2shr"
   },
   {
     id: 5,
@@ -62,12 +63,12 @@ export const placeInfo = [
     headerSubTitle: "Pantan",
     headerText:
       "U isto vrijeme i reklama i putokaz u neposrednoj blizini Aerodroma-Split na putu prema gradu Trogiru, a prije trgovačkih centara, Billbord veličine 5 * 2,4 m pruža uvid u Vašu ponudu.",
-    title: "Consequuntur quo",
+    title: "",
     description:
-      "Billbord veličine 5 * 2,4 m na staroj kaštelanskoj cesti u blizini Aerodroma Split.",
+      "Billbord veličine 5 * 2,4 m na staroj kaštelanskoj cesti, odnosno cesti Dr. Franje Tuđmana u neposrednoj blizini Aerodroma Split.",
     img: ".././images/slike/trogir-pantan.jpg",
     maps:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.9763498372804!2d37.59654121561725!3d55.741539900328505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54baea59877dd%3A0xb4d0c3eb557a1c98!2zwqvQnNCe0KHQmtCe0JLQodCa0JjQmSDQlNCe0Jwg0KTQntCi0J7Qk9Cg0JDQpNCY0JjCuw!5e0!3m2!1sru!2sru!4v1547878587877"
+      "https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d15669.192734711434!2d16.292003073766885!3d43.53186549141115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d43.530306499999995!2d16.2815999!5e0!3m2!1shr!2shr!4v1579637153165!5m2!1shr!2shr"
   },
   {
     id: 6,
@@ -75,12 +76,13 @@ export const placeInfo = [
     headerSubTitle: "Plano",
     headerText:
       "U neposrednoj blizini Aerodraoma-Split, a prema gradu Splitu Billbord veličine 5 * 2,4 m na staroj kaštelanskoj cesti na idealnoj poziciji za pružanje prvih informacija posebice turistima.",
-    title: "Animi nobis",
+    title: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?",
+      "Billbord veličine 5 * 2,4 m na cesti iz Trogira prema Splitu iznimno uočljiv.",
     img: ".././images/slike/trogir-plano.jpg",
+
     maps:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.397087990157!2d37.62463341561838!3d55.76897499821247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a68e2e342b7%3A0x934bc1e9948c826b!2z0KbQtdC90YLRgCDQnNCw0YDRgQ!5e0!3m2!1sru!2sru!4v1547878491776"
+      "https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d11572.002706047017!2d16.255526840206493!3d43.52317861601379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x1335420993dd42f7%3A0x8395754b009b5daa!2sTrogir!3m2!1d43.516386999999995!2d16.2501894!4m3!3m2!1d43.5273608!2d16.271497999999998!5e0!3m2!1shr!2shr!4v1579638041822!5m2!1shr!2shr"
   },
   {
     id: 7,
@@ -88,7 +90,7 @@ export const placeInfo = [
     headerSubTitle: "Podstrana",
     headerText:
       "Bilboard smješten na samom ulaska u grad Split iz smjera Dubrovnika, kao jednoj od najprometnijih prometnica, svojom veličinom i pozicijom pljeni pažnju.",
-    title: "Animi nobis",
+    title: "",
     description:
       "Bilboard veličine 5 * 2.4 m smješten na glavnoj prometnici i vidljiv sa velike udaljenosti.",
     img: ".././images/slike/sirobuja.jpg",
