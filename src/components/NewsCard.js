@@ -13,6 +13,8 @@ class NewsCard extends Component {
       headerText,
       description,
       img,
+      img1,
+      img2,
       maps
     } = this.props.item;
     return (
@@ -25,7 +27,13 @@ class NewsCard extends Component {
               </h5>
               <p className="card-text">{headerText}</p>
               <p className="card-text">{description}</p>
+              {/*jedan od dva iamge je za brisanje ukoliko
+              se ne postavi druga slika*/}
               <img src={img} alt={headerTitle} className="card-img-top" />
+              <p></p>
+              <img src={img1} alt={headerTitle} className="card-img-top" />
+              <p></p>
+              <img src={img2} alt={headerTitle} className="card-img-top" />
 
               <p className="card-text">{}</p>
 
