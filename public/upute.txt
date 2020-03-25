@@ -1,0 +1,22 @@
+GLAVNE STRANICE:
+    home
+    reklame
+        slobodne pozicije
+		    - slobodnepozicije.js
+		    - NewsCard.js 
+		    - contex.js 
+		    - data.js
+        reklame-vrste		
+		    - news.js
+		    - NewsCard.js
+		    - contex.js 
+		    - data.js
+        faq 
+		    - faqCard.js 
+		    - faq.js 
+		    - contex.js 
+		    - data.js
+		
+    portfolio
+    contact us
+    

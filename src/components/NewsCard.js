@@ -9,6 +9,7 @@ class NewsCard extends Component {
     const {
       id,
       headerTitle,
+      newsTitle,
       newsText,
       headerText,
       description,
@@ -25,8 +26,12 @@ class NewsCard extends Component {
               <h5 key={id} className="card-title">
                 {headerTitle}
               </h5>
+              <h5 key={id} className="card-title">
+                {newsTitle}
+              </h5>
               <p className="card-text">{headerText}</p>
               <p className="card-text">{description}</p>
+              <p className="card-text">{newsText}</p>
               {/*jedan od dva iamge je za brisanje ukoliko
               se ne postavi druga slika*/}
               <img src={img} alt={headerTitle} className="card-img-top" />

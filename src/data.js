@@ -178,7 +178,7 @@ export const slobodne = [
       "Bilboard smješten na glavnoj prometnici ulaska u grad Split iz smjera Dubrovnika, a 30 metara udaljen od raskršća sa semaforima gdje večina sudionika prometa gleda upravo u pravcu reklamnog  panoa što mu uvelike povečava uočljivost i utjecaj. Bitna značajka ovog novog Bilboard-a je u tome da je reklamiranje moguće sa obje strane",
     description: "Bilboard je površine 24 m2 (8 * 3 m).",
 
-    newsText:
+    slobodneText:
       "Nažalost, trenutno nema slobodnih pozicija. Slobodni ste poslati nam upit, kako bi Vas mogli kontaktirati kada se pojedine pozicije oslobode.",
     img: ".././images/slike/sirobuja.jpg",
 
