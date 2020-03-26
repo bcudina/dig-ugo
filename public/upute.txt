@@ -5,18 +5,25 @@ GLAVNE STRANICE:
 		    - slobodnepozicije.js
 		    - NewsCard.js 
 		    - contex.js 
-		    - data.js
+		    - data.js (slobodne)
         reklame-vrste		
-		    - news.js
-		    - NewsCard.js
+		    - News.js
+		    - faqCard.js
 		    - contex.js 
-		    - data.js
+		    - data.js (news)
         faq 
+		    - faq.js  
 		    - faqCard.js 
-		    - faq.js 
 		    - contex.js 
-		    - data.js
+		    - data.js (cestapitanja)
 		
     portfolio
+			- portfolio-info.js 
+		    - contex.js 
+		    - data.js (portfolioData)
+
     contact us
-    
+
+****************
+NewsCard - povlaći podatke iz contex
+

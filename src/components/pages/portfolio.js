@@ -1,10 +1,8 @@
-//stranica porfolio firmi partnera
-//stranica portfolioinfo uređuje ovu stranicu
-//povlačenje podataka sa stranice data.js
-
 import React, { Component } from "react";
 import { InfoConsumer } from "../context";
 import PortfolioInfo from "../portfolio-info";
+
+/* class */
 
 class Portfolio extends Component {
   render() {

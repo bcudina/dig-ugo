@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NewsCard from "../NewsCard";
-
 import { InfoConsumer } from "../context";
 import Title from "./Title";
 

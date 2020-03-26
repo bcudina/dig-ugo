@@ -1,7 +1,9 @@
 import React, { Component } from "react";
-import NewsCard from "../NewsCard";
 import { InfoConsumer } from "../context";
 import Title from "./Title";
+import FaqCard from "../faqCard";
+
+/* class */
 
 class News extends Component {
   render() {
@@ -12,7 +14,7 @@ class News extends Component {
         <InfoConsumer>
           {value => {
             return value.news.map(item => {
-              return <NewsCard key={item.id} item={item} />;
+              return <FaqCard key={item.id} item={item} />;
             });
           }}
         </InfoConsumer>
