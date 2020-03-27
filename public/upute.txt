@@ -1,5 +1,9 @@
 GLAVNE STRANICE:
     home
+			- Home.js
+		    - Info.js
+		    - contex.js 
+		    - data.js (placeInfo)
     reklame
         slobodne pozicije
 		    - slobodnepozicije.js
@@ -18,6 +22,7 @@ GLAVNE STRANICE:
 		    - data.js (cestapitanja)
 		
     portfolio
+			- portfolio.js
 			- portfolio-info.js 
 		    - contex.js 
 		    - data.js (portfolioData)

@@ -11,7 +11,7 @@ function Footer() {
             <div className="col-md-4 col-sm-6 name">
               <h4>Promo Link d.o.o.</h4>
               <ul className="list-unstyled">
-                <li>Put skalica 5</li> <li>Split</li>
+                <li>Put Skalica 5</li> <li>Split</li>
               </ul>
             </div>
             {/* Column 2 */}
