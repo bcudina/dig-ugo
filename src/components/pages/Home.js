@@ -8,11 +8,11 @@ class Home extends Component {
     return (
       <React.Fragment>
         <div className="container">
-          <Title prvo="prisutan 24/7" drugo="uočljiv" trece="utjecajan" />
+          <Title prvo="prisutann 24/7" drugo="uočljiv" trece="utjecajan" />
           <div className="row mt-5">
             <InfoConsumer>
-              {value => {
-                return value.info.map(item => {
+              {(value) => {
+                return value.info.map((item) => {
                   return <Info key={item.id} item={item} />;
                 });
               }}
