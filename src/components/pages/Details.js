@@ -7,16 +7,18 @@ class Details extends Component {
   render() {
     return (
       <InfoConsumer>
-        {data => {
+        {(data) => {
           const {
             id,
             headerTitle,
             headerSubTitle,
             headerText,
             img,
+            imgMosecka2,
+            imgMosecka3,
             title,
             maps,
-            description
+            description,
           } = data.detailInfo;
 
           return (
@@ -60,7 +62,7 @@ class Details extends Component {
                       role="tab"
                       data-toggle="tab"
                     >
-                      About Place
+                      Pictures
                     </a>
                   </li>
 
@@ -103,6 +105,17 @@ class Details extends Component {
                       alt={title}
                       className="img-thumbnail img-fluid"
                     />
+                    <img
+                      src={imgMosecka2}
+                      alt={title}
+                      className="img-thumbnail img-fluid"
+                    />
+                    <img
+                      src={imgMosecka3}
+                      alt={headerTitle}
+                      className="img-thumbnail img-fluid"
+                    />
+                    <p></p>
                   </div>
                   {/* Reviews */}
                   <div className="tab-pane" id="reviews" role="tabpanel">
@@ -116,7 +129,7 @@ class Details extends Component {
                         border: "0",
                         height: "28.125rem",
                         width: "100%",
-                        frameborder: "0"
+                        frameborder: "0",
                       }}
                     />
                   </div>

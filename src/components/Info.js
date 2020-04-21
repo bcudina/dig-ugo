@@ -9,12 +9,14 @@ class Info extends Component {
       headerTitle,
       headerSubTitle,
       headerText,
-      img
+      img,
+      imgMosecka2,
+      imgMosecka3,
     } = this.props.item;
 
     return (
       <InfoConsumer>
-        {value => (
+        {(value) => (
           <div className="col-10 col-lg-4 mx-auto mb-5">
             <div className="card" style={{ width: "18rem" }}>
               <img src={img} alt={headerTitle} className="card-img-top" />

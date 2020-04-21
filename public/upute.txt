@@ -1,4 +1,6 @@
-GLAVNE STRANICE:
+****************
+STRANICE:
+
     home
 			- Home.js
 		    - Info.js
@@ -28,7 +30,7 @@ GLAVNE STRANICE:
 		    - data.js (portfolioData)
 
     contact us
-
 ****************
 NewsCard - povlaći podatke iz contex
+Title.js - uređuje glavne naslove po stranicama
 
